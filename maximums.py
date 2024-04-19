@@ -6,7 +6,6 @@ def max_of_two(x, y):
         return y
 
 
-max_of_two(5, 6)
 
 
 def max_of_three(x, y, z):
@@ -18,5 +17,3 @@ def max_of_three(x, y, z):
     else:
         return z
 
-
-max_of_three(5, 6, 7)
