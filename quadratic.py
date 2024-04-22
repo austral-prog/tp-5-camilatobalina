@@ -34,3 +34,8 @@ def roots(a, b, c):
             return f"f'(x) = {b}"
         elif not b:
             return f"f'(x) = {2*a}*X"
+
+derivation(2,3)
+to_string(2,3,4)
+value_y(4,3,2,1)
+roots(5,4,3)
