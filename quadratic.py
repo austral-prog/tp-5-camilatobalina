@@ -10,7 +10,7 @@ def roots(a, b, c):
     if result1==result2:
         return f"({result1})"
     else:
-        return f"({result1}),{result2})"
+        return f"({result1}, {result2})"
 def value_y(a, b, c, x):
     imagen = a*(x**2) + b*x + c
     return imagen
