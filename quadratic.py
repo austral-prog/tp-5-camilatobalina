@@ -5,8 +5,8 @@ def roots(a, b, c):
         return "( )"
         
     raiz = math.sqrt(var1)
-    result1 = (-b+raiz)/(2*a)
-    result2 = (-b-raiz)/(2*a)
+    result1 =(-b+raiz)/(2*a)
+    result2 =(-b-raiz)/(2*a)
     if result1==result2:
         return f"({result1})"
     else:
