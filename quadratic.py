@@ -1,8 +1,8 @@
 import math
-def roots(a, b, c):
+def roots(a,b,c):
     var1 = b**2-4*a*c
     if var1 < 0:
-        return "()"
+        return "( )"
         
     raiz = math.sqrt(var1)
     result1 = (-b+raiz)/2*a
