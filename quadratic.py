@@ -25,7 +25,7 @@ def to_string(a, b, c):
     elif not a and not b and c:
         return f"f(x) = {c}"
         
-def derivation(a, b):
+def derivation(a, b, c):
     if a and b:
          return f"f'(x) = {2 * a} * X + {b}"
     elif not a:
